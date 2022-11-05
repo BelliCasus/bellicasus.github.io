@@ -14,6 +14,21 @@ h1
   color: White;
 }
 
+#horizontal-guide
+{
+  transform: translate(-125px,-250px);
+  background-color: grey;
+  width: 250px;
+  height: 1px;
+}
+
+#vertical-guide
+{
+  transform: translateY(-125px);
+  background-color: lightgrey;
+  width: 1px;
+  height: 250px;
+}
 
 .game-container
 {
@@ -33,6 +48,9 @@ h1
 
 .circle
 {
+  display: flex;
+  flex-direction: column;
+
   background-color: white;
   width: 250px;
   height: 250px;
@@ -44,13 +62,31 @@ h1
   border-style: solid;
 }
 
+.angle-center
+{
+  margin: auto;
+  background-color: black;
+  width: 1px;
+  height: 1px;
+}
+
+.angle-pivot
+{
+  width: 1px;
+  height: 1px;
+  background-color: black;
+  transform: rotateZ(-80deg);
+}
+
 .angle
 {
-  /* background-color: black; */
 
+  margin: auto;;
+  background-color: black;
   width: 125px;
   height: 2px;
 }
+
 
 .answer-container
 {

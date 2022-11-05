@@ -12,7 +12,12 @@
     <div class="game-container">
       <p id="score"> 0/0 </p>
       <div class="circle">
-        <div class="angle">
+        <div class="angle-center">
+          <div class="angle-pivot">
+            <div class="angle"></div>
+          </div>
+          <div id="vertical-guide"></div>
+          <div id="horizontal-guide"></div>
         </div>
       </div>
     </div>
@@ -33,11 +38,11 @@
             <input type="number" required min="0" max="90" id="answer-margin">
           </label>
           <label class="right" for="horizontal-guide"> Horizontal Guide?
-            <input type="checkbox" id="horizontal-guide">
+            <input type="checkbox" id="horizontal-guide-option">
           </label>
           <br>
           <label class="right" for="vertical-guide"> Vertical Guide?
-            <input type="checkbox" id="vertical-guide">
+            <input type="checkbox" id="vertical-guide-option">
           </label>
           <br>
           <div class="submit-label">
