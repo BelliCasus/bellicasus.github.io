@@ -1,0 +1,72 @@
+body
+{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header
+{
+  background-color: black;
+}
+
+h1
+{
+  color: White;
+}
+
+
+.game-container
+{
+  background-color: lightgrey;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 500px;
+  height: 500px;
+
+  margin: auto;
+
+  border-color: black;
+  border-style: solid;
+}
+
+.circle
+{
+  background-color: white;
+  width: 250px;
+  height: 250px;
+
+  margin: auto;
+
+  border-radius: 100%;
+  border-color: black;
+  border-style: solid;
+}
+
+.angle
+{
+  /* background-color: black; */
+
+  width: 125px;
+  height: 2px;
+}
+
+.answer-container
+{
+  margin: auto;
+  width: 500px;
+}
+
+.settings-container
+{
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  width: 500px;
+}
+
+.right
+{
+  float: right;
+}
