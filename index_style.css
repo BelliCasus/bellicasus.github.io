@@ -1,0 +1,55 @@
+body
+{
+  font-family: sans-serif;
+}
+
+header
+{
+  background-color: black;
+  text-align: center;
+}
+
+header h1
+{
+  color: white;
+}
+
+div p
+{
+  text-align: center;
+}
+
+.training-type-container
+{
+  display:flex;
+}
+
+.link-container
+{
+  text-align: center;
+  background-color: lightgrey;
+
+  width: 20%;
+  height: 200px;
+  margin: 0 10px;
+
+  border-radius: 10%;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.link-text
+{
+  color: black;
+}
+
+.training-type
+{
+  text-align: center;
+}
+
+a
+{
+  text-decoration: none;
+}
