@@ -60,13 +60,23 @@ h1
 
 .settings-container
 {
-  display: inline-block;
-  text-align: left;
-  margin: auto;
+  text-align: center;
   width: 500px;
+  margin: auto;
+}
+
+.left
+{
+  float: left;
 }
 
 .right
 {
+  clear: right;
   float: right;
+}
+
+.submit-label
+{
+  clear: both;
 }
