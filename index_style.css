@@ -1,64 +1,31 @@
 body
 {
-  font-family: sans-serif;
-}
-
-header
-{
-  background-color: black;
-  text-align: center;
-}
-
-header h1
-{
+  background-color: rgb(29, 18, 60);
   color: white;
 }
 
-div p
+.top-bar
 {
-  text-align: center;
+  display: inline-block;
 }
 
-a
+.page-tab
 {
+  margin: 10px;
+}
+
+.link
+{
+  color:white;
   text-decoration: none;
-  min-width: 175px;
-  margin: 10px 10px;
 }
 
-.training-type-container
+.current-page
 {
-  display:flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  color: lightgrey;
 }
 
-.link-container
+.page-tab:not(.current-page):hover
 {
-  text-align: center;
-  background-color: lightgrey;
-
-  width: 100%;
-  max-width: 175px;
-  height: 200px;
-
-  border-radius: 10%;
-  border-color: black;
-  border-width: 1px;
-  border-style: solid;
-}
-
-.link-container:hover
-{
-  transform: scale(1.01);
-}
-
-.link-text
-{
-  color: black;
-}
-
-.training-type
-{
-  text-align: center;
+  transform: scale(1.05);
 }

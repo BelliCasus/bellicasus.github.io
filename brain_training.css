@@ -1,0 +1,66 @@
+body
+{
+  background-color: rgb(29, 18, 60);
+  color: white;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.top-bar
+{
+  display: inline-block;
+}
+
+.current-page
+{
+  color: lightgrey;
+}
+
+.page-tab
+{
+  margin: 10px;
+}
+
+.link
+{
+  color:white;
+}
+
+.games-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-type
+{
+  text-align: center;
+}
+
+.link-container
+{
+  text-align: center;
+  background-color: white;
+
+  width: 150px;
+  height: 200px;
+
+  margin: 5px;
+
+  border-radius: 10%;
+  color: black;
+}
+
+.page-tab:not(.current-page):hover
+{
+  transform: scale(1.05);
+}
+
+.full-button:hover
+{
+  transform: scale(1.01);
+}
