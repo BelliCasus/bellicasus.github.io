@@ -41,6 +41,46 @@ a
   text-align: center;
 }
 
+.angle-symbol
+{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+}
+
+.angle-symbol-angle
+{
+  width: 40px;
+  height: 2px;
+  top: 30%;
+  left: 40%;
+  background-color: black;
+  position: absolute;
+  transform: rotateZ(-60deg);
+}
+
+.color-grid-symbol
+{
+  width: 80px;
+  height: 80px;
+  border-radius: 10%;
+  background-color: lightgrey;
+}
+
+.color-grid-cell
+{
+  top: 100px;
+  background-color: rgb(96, 180, 120);
+  width: 34px;
+  height: 34px;
+  border-radius: 10%;
+  display: inline-block;
+  border: 1px solid grey;
+}
+
 .link-container
 {
   text-align: center;
@@ -50,6 +90,11 @@ a
   height: 200px;
 
   margin: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   border-radius: 10%;
   color: black;

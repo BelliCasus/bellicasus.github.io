@@ -101,11 +101,12 @@ h1
   width: 500px;
   margin: auto;
 
-    background-color: white;
+  background-color: white;
 }
 
 .left
 {
+  clear: left;
   float: left;
 }
 
