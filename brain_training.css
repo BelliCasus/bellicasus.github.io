@@ -43,8 +43,8 @@ a
 
 .angle-symbol
 {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   background-color: white;
   border-radius: 50%;
   border: 1px solid black;
@@ -53,7 +53,7 @@ a
 
 .angle-symbol-angle
 {
-  width: 40px;
+  width: 50%;
   height: 2px;
   top: 30%;
   left: 40%;
@@ -64,8 +64,8 @@ a
 
 .color-grid-symbol
 {
-  width: 80px;
-  height: 80px;
+  width: 130px;
+  height: 130px;
   border-radius: 10%;
   background-color: lightgrey;
 }
@@ -74,8 +74,8 @@ a
 {
   top: 100px;
   background-color: rgb(96, 180, 120);
-  width: 34px;
-  height: 34px;
+  width: 45%;
+  height: 45%;
   border-radius: 10%;
   display: inline-block;
   border: 1px solid grey;
@@ -98,6 +98,15 @@ a
 
   border-radius: 10%;
   color: black;
+}
+
+.shulte-cell
+{
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+
+  border: 1px solid black;
 }
 
 .page-tab:not(.current-page):hover
