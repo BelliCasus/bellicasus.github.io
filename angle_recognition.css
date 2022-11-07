@@ -63,6 +63,7 @@ h1
 
 .angle-center
 {
+  position: relative;
   margin: auto;
   background-color: black;
   width: 1px;
@@ -71,20 +72,45 @@ h1
 
 .angle-pivot
 {
-  width: 1px;
-  height: 1px;
+  position: relative;
   background-color: black;
   transform: rotateZ(-80deg);
 }
 
+.angle-margin-pivot-top
+{
+  position: rel;
+  background-color: black;
+  transform: rotateZ(-90deg);
+}
+
+.angle-margin-pivot-bottom
+{
+  position: relative;
+  background-color: black;
+    transform: rotateZ(-70deg);
+}
+
 .angle
 {
-
-  margin: auto;;
+  position: absolute;
+  top: 0%;
+  left: 0%;
   background-color: black;
   width: 125px;
   height: 2px;
 }
+
+.angle-margin
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 125px;
+  height: 2px;
+  background-color: grey
+}
+
 
 
 .answer-container

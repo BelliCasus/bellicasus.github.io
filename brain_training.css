@@ -9,6 +9,11 @@ a
   text-decoration: none;
 }
 
+.link-text
+{
+  font-size: 15px;
+}
+
 .top-bar
 {
   display: inline-block;
@@ -41,44 +46,106 @@ a
   text-align: center;
 }
 
+.icon
+{
+  width: 110px;
+  height: 110px;
+  background-color: lightgrey;
+}
+
+.shultes-table-symbol
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shulte-cell
+{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.shulte-cell > p
+{
+  margin-top: 20%;
+}
+
 .angle-symbol
 {
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  border-radius: 50%;
-  border: 1px solid black;
   position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.angle-symbol-angle-top
+{
+  width: 90%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  top: 37%;
+  left: 0%;
+  transform: rotate(-30deg)
+}
+
+.angle-symbol-angle-bottom
+{
+  width: 90%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 6%;
 }
 
 .angle-symbol-angle
 {
-  width: 50%;
-  height: 2px;
-  top: 30%;
-  left: 40%;
-  background-color: black;
   position: absolute;
-  transform: rotateZ(-60deg);
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-right: 1px solid black;
+  border-radius: 50%;
+  top: 40%;
+  left: 19%;
+  transform: rotate(-15deg);
 }
 
 .color-grid-symbol
 {
-  width: 130px;
-  height: 130px;
-  border-radius: 10%;
-  background-color: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .color-grid-cell
 {
-  top: 100px;
-  background-color: rgb(96, 180, 120);
-  width: 45%;
-  height: 45%;
-  border-radius: 10%;
-  display: inline-block;
-  border: 1px solid grey;
+  width: 40%;
+  height: 40%;
+  border-radius: 5%;
+  border: 1px solid black;
+  background-color: rgb(71, 200, 158);
+}
+
+.hex-color-symbol
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hex-color-gradient
+{
+  width: 90%;
+  height: 90%;
+  background: linear-gradient(45deg,rgb(0, 0, 0), rgb(255, 35, 0), white);
+  border: 1px solid black;
 }
 
 .link-container
@@ -98,15 +165,6 @@ a
 
   border-radius: 10%;
   color: black;
-}
-
-.shulte-cell
-{
-  display:inline-block;
-  width: 40px;
-  height: 40px;
-
-  border: 1px solid black;
 }
 
 .page-tab:not(.current-page):hover
